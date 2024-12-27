@@ -1,0 +1,36 @@
+.cards {
+  display: flex;
+
+  background-image: linear-gradient(
+    180deg,
+    hsla(0, 0%, 8%, 0) 10%,
+    hsla(0, 0%, 8%, 0.15) 20%,
+    hsla(0, 0%, 8%, 0.35) 35%,
+    hsla(0, 0%, 8%, 0.58) 56%,
+    hsla(0, 0%, 8%, 0.8) 70%,
+    #141414 90%,
+    #141414
+  );
+
+  height: 260px;
+  margin-left: 60px;
+  gap: 8px;
+}
+
+.cards img {
+  margin-top: 19px;
+  width: 283px;
+  height: 160px;
+}
+
+.main-cards {
+  margin-top: 50px;
+  height: 276px;
+}
+
+.main-cards div h3 {
+  font: var(--text-smm);
+  color: var(--menu);
+
+  margin-left: 60px;
+}

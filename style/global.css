@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --ini: #fafafa;
+  --menu: #e0e0e0;
+  --bg-more: #515451;
+  --bg-play: #fafafa;
+  --play: #000000;
+
+  --font-family: "Roboto", sans-serif;
+  --text-lg: 700 36px var(--font-family);
+  --text-md: 400 30px var(--font-family);
+  --text-sm: 400 22px var(--font-family);
+  --text-smm: 700 24px var(--font-family);
+
+  --title-llg: 400 18px var(--font-family);
+  --title-lg: 700 16px var(--font-family);
+  --title-md: 400 16px var(--font-family);
+  --title-sm: 400 14px var(--font-family);
+
+  --text-play: 500 40px var(--font-family);
+  --text-more: 500 30px var(--font-family);
+}
+
+body {
+  width: 1864px;
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* .font-1 {
+  font-family: "Roboto", sans-serif;
+  --text-lg: 700 36px;
+  --text-md: 400 30px;
+  --text-sm: 400 22px;
+
+  --text-top: 500 43px;
+  --text-play: 500 40px;
+  --text-more: 500 30px;
+} */

@@ -1,0 +1,84 @@
+#main {
+  display: flex;
+  flex-direction: column;
+
+  width: 640px;
+  margin-inline: 60px;
+  margin-top: 60px;
+}
+
+#main .img-1 {
+  min-width: 480px;
+  height: 260px;
+}
+
+.show-text {
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--ini);
+
+  min-width: 490px;
+  height: 180px;
+  padding-top: 20px;
+}
+
+.show-text h3 {
+  font: var(--text-md);
+  margin: 12px 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.show-text p {
+  font: var(--text-sm);
+}
+
+#main .play-more {
+  display: flex;
+  align-items: center;
+
+  width: 517px;
+  height: 77px;
+  gap: 16px;
+}
+
+#main .play a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-play);
+  border-radius: 5px;
+
+  width: 150px;
+  height: 45px;
+  gap: 10px;
+}
+
+#main .play a:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+#main .play h3 {
+  font: var(--text-smm);
+  color: var(--play);
+}
+
+#main .more a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-more);
+  border-radius: 5px;
+
+  width: 270px;
+  height: 45px;
+  gap: 10px;
+}
+
+#main .more a:hover {
+  background-color: rgba(109, 109, 110, 0.884);
+}
+
+#main .more h3 {
+  font: var(--text-smm);
+  color: var(--ini);
+}
